@@ -1,0 +1,16 @@
+section {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+section.absolute
+{
+	position: absolute;
+	left: 0%;
+	top: 0px;
+}
+#ajax-container {
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
