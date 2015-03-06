@@ -1,6 +1,10 @@
 $(document).ready(function(){
 	prepareForAJAX();
 	addAJAXLinks($('body'));
+
+	window.onpopstate = function() {
+		location.reload();
+	}
 });
 
 function prepareForAJAX() {
